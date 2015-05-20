@@ -6,7 +6,7 @@ package Question1;
  * @author Anthony Chao
  *
  */
-public class Question1 {
+public class Number1 {
 	public static void main(String[] args) {
 		String intro = "When Gregor Samsa woke one morning from uneasy dreams he found himself transformed in his bed into a monstrous verminous insect";
 		int n = intro.length();

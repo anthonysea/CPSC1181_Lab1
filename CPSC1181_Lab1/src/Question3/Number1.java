@@ -7,7 +7,7 @@ package Question3;
  * @author Anthony Chao
  *
  */
-public class Question3 {
+public class Number1 {
 	public static void main(String[] args) {
 		String message;
 		String sentence1 = "      abc   "; 

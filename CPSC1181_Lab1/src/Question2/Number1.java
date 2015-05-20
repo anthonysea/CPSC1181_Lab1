@@ -6,7 +6,7 @@ package Question2;
  * @author Anthony Chao
  *
  */
-public class Question2 {
+public class Number1 {
 	public static void main(String[] args) {
 		String message;
 		String animal1 = "quick brown fox";

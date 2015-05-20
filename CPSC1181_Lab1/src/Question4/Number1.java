@@ -1,7 +1,7 @@
 package Question4;
 
 import java.awt.Rectangle;
-public class Question1 {
+public class Number1 {
 		public static void main(String[] args) 
 		   { 
 		      Rectangle r1 = new Rectangle(0, 0, 100, 50); 
