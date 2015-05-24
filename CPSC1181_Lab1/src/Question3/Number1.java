@@ -12,7 +12,8 @@ public class Number1 {
 		String message;
 		String sentence1 = "      abc   "; 
 	    String sentence2 = "   def"; 
-	    String sentence3 = "ghi         ";      
+	    String sentence3 = "ghi         ";
+	    // chained substring call using the + operator to join the strings
 	    message = sentence1.substring(6, 9) + sentence2.substring(3) + sentence3.substring(0, 3);
 	    System.out.println(message);
 	}
