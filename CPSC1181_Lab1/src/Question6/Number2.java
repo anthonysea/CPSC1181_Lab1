@@ -6,6 +6,14 @@ import java.awt.geom.*;
 import javax.swing.JComponent;
 import javax.swing.JFrame;
 
+/**
+ * This program uses the Ellipse2D.Double object to draw five different
+ * circles to the component 
+ * @version 0.1
+ * @author Anthony Chao
+ *
+ */
+
 public class Number2 {
 	/**
 	 * Takes in a Graphics object and uses the Graphics2D library to cast it and
