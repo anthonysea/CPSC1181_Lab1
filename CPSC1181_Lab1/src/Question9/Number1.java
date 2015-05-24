@@ -40,6 +40,7 @@ public class Number1
 		
 		Door frontDoor = new Door("front", "open");
 		
+		// if statement to determine what to draw if door is open or the door is closeds
 		if (frontDoor.isOpen()) {
 			g2.fillRect(113, 140, 25, 40);
 		} else {
