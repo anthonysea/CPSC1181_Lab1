@@ -16,7 +16,7 @@ public class Arrays {
         { 
 			System.out.println("x[" + i + "]:  " + x[i]); 
 	    } 
-	    x = rotate(x, 3); 
+	    x = rotate(x, 1); 
 	    System.out.println("After rotation:  =========================");        
 	    for (int i = 0; i < x.length; i++) 
 	    { 
@@ -35,7 +35,7 @@ public class Arrays {
 				// to get the index of the new place for the number
 				newArray[(i + number) % newArray.length] = oldArray[i];
 			} else {
-				newArray[i + 3] = oldArray[i];
+				newArray[i + number] = oldArray[i];
 			}
 		}
 		return newArray;
